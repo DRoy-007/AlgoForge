@@ -1,0 +1,94 @@
+# ============================
+# C / C++ build files
+# ============================
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+*.dll
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# ============================
+# CMake
+# ============================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+build*/
+out/
+out*/
+
+# ============================
+# Visual Studio Code
+# ============================
+.vscode/
+*.code-workspace
+
+# ============================
+# CLion / JetBrains
+# ============================
+.idea/
+cmake-build-*/
+
+# ============================
+# MinGW / MSYS / GCC temp
+# ============================
+*.gcda
+*.gcno
+*.gcov
+
+# ============================
+# Logs and system files
+# ============================
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ============================
+# Backup files
+# ============================
+*~
+*.bak
+*.old
+
+# ============================
+# Misc
+# ============================
+*.cache
+.cache/
