@@ -14,6 +14,7 @@ char _getch(){
     tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
     return ch;
 }
+// the above _getch() is made with the help of ChatGPT to replicate _getch() in conio.h library of windows
 
 bool luhnValidator(const string cardNumberInStr){
     int sum = 0;
