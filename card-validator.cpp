@@ -44,9 +44,20 @@ int main(){
     while (cardNumberInStr.length() < LEN){
         char ch = _getch();
 
+        // the following block handles backspace
+        if (ch == 127 || ch == '\b'){
+            if (!cardNumberInStr.empty()) {
+                cardNumberInStr.pop_back();
+                cout << "\b \b";
+                cout.flush();
+            }
+            continue;
+        }
+
         if (isdigit(ch)){
             cardNumberInStr += ch;
             cout << ch;
+            cout.flush();
         }
     }
     cout << endl << endl;
